@@ -1,12 +1,10 @@
-numero = 10
+linhas = 2
+colunas = 2
 
-if numero > 1:
-    if numero > 2:
-        if numero > 3:
-            print("Número maior que 3")
-        else:
-            print("Número menor que 3")
-    else:
-        print("Número menor que 2")
-else:
-    print("Número menor que 1")
+linha = 1
+while linha <= linhas:
+    coluna = 1
+    while coluna <= colunas:
+        print(linha, coluna)
+        coluna += 1
+    linha += 1
